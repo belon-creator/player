@@ -657,4 +657,17 @@ input[type='range']:focus::-ms-fill-upper {
 .red-text {
   color: #f51e38;
 }
+
+.video-volume {
+  max-width: 70px;
+}
+
+.video-icon {
+  margin: 0px 5px;
+}
+
+.video-fullscreen {
+  cursor: pointer;
+  margin: 5px;
+}
 /*# sourceMappingURL=style.min.css.map */
