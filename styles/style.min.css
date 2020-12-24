@@ -10,10 +10,10 @@ html {
 }
 body {
   min-height: 100vh;
-  background: #f2f2f2;
+  background: rgba(0, 0, 0, 0.8);
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: #0f1e36;
+  color: #3d5f96;
 }
 button,
 input {
@@ -270,7 +270,7 @@ main {
   width: 140px;
 }
 .radio-item.select .radio-check {
-  border: 5px solid #aaa;
+  border: 5px solid rgb(57, 5, 247);
 }
 .radio-item input[type='radio'] {
   position: absolute;
