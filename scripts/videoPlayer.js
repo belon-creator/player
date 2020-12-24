@@ -1,3 +1,5 @@
+import { addZero } from './supScript.js';
+
 export const videoPlayerInit = () => {
   const videoPlayer = document.querySelector('.video-player');
   const videoButtonPlay = document.querySelector('.video-button__play');
@@ -36,7 +38,7 @@ export const videoPlayerInit = () => {
     videoPlayer.currentTime = 0;
   };
 
-  const addZero = (n) => (n < 10 ? '0' + n : n);
+  // const addZero = (n) => (n < 10 ? '0' + n : n);
 
   const changeValue = () => {
     const valueVolume = videoVolume.value;
